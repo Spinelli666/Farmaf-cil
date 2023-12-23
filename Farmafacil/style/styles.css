@@ -14,12 +14,12 @@ body {
     background-color: #327A26 !important;
 }
 
-/* .navbar-collapse {
-    margin-right: 7vh;
-} */
-
 .shadow-lg {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+.nav-link{
+    margin-right: 4vh;
 }
 
 /* Search */
