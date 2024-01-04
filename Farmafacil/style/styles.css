@@ -12,9 +12,9 @@ body {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
-.nav-link{
+/* .nav-link{
     margin-right: 6vh;
-}
+} */
 
 /* Search */
 
@@ -51,10 +51,22 @@ body {
 }
 
 
-.imagem1 {
-    margin-left: 4vh;
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.imagem2 {
-    margin-left: 6vh;
+.descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao h5 {
+    margin: 0;
+}
+
+.img-farmacia {
+    display: flex;
 }
