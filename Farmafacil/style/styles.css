@@ -12,9 +12,9 @@ body {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
-/* .nav-link{
+.nav-link{
     margin-right: 6vh;
-} */
+} 
 
 /* Search */
 
@@ -24,12 +24,29 @@ body {
     padding-bottom: 4vh;
 }
 
+/* Droppdown */
+
+.dropdown-menu {
+    background-color: #198754;
+}
+
+.form-check {
+    margin-left: 0.50vh;
+}
+
+.form-check-label {
+    color: #FFFFFF;
+}
+
+/* Droppdown Fim */
+
 .pesquisa {
     margin-left: 3vh;
 }
 
 .btn_pesquisa {
-   margin-right: 9vh;
+    margin-left: 0.30vh;
+    margin-right: 9vh;
 }
 
 /* Produto */
