@@ -34,39 +34,42 @@ body {
 
 /* Produto */
 
-.cartoes {
-    width: 80%;
-}
-
-.cartoes {
+.div32 {
     border: 1px solid #C2C2C2;
 }
 
-.div-card {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+@media (max-width: 575.98px) {
 
+    .div36 {
+        padding: 1vh 1vh 1vh 1vh;
+    }
 
-.imagem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .div36 h5 {
+        font-size: 1.2vh;
+    }
 
-.descricao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .div37 {
+        margin-top: 2vh;
+    }
 
-.descricao h5 {
-    margin: 0;
-}
+};
 
-.img-farmacia {
-    display: flex;
-}
+@media (min-width: 991.98px) {
+    .div37 {
+        margin-top: 2vh;
+    }
+ }
+
+@media (min-width: 1199.98px) { 
+
+    .div34 img {
+        width: 92%;
+    }
+ }
+
+@media (min-width: 1399.98px) { 
+
+    .div34 img {
+        width: 82%;
+    }
+ }
